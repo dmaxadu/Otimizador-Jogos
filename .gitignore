@@ -1,0 +1,22 @@
+# Saídas de build
+bin/
+obj/
+publish/
+artifacts/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.userprefs
+*.DotSettings.user
+
+# Pacotes
+*.nupkg
+packages/
+
+# Sistema
+Thumbs.db
+.DS_Store

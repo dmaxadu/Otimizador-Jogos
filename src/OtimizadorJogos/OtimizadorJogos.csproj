@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>OtimizadorJogos</RootNamespace>
+    <AssemblyName>OtimizadorJogos</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
+
+    <Product>Otimizador de Jogos</Product>
+    <Description>Ajustes do Windows para jogos, com backup automático e reversão com um clique.</Description>
+    <Version>1.0.0</Version>
+    <Authors>Daniel</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OtimizadorJogos.Core\OtimizadorJogos.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\icon.ico" />
+  </ItemGroup>
+
+</Project>
